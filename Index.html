@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    
+</head>
+<body>
+    <nav id="website-nav">
+        <div class="logo"><span style="color: rgb(214, 3, 3);">Code</span>Nest</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">CodeNext</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+s
+            </div>
+        </div>
+    </nav>
+ 
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Ayush.jpg" alt="Ayush profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title" >Ayush Arakkal Arunan</h1>
+            <p class="section__text__p2">Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download Cv</button>
+                <button class="btn btn-color-1" onclick="location.href='./#Contact'">Contact info</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/Cover_letter.pdf')">Hire me</button>
+            </div>
+            <div id="Social-container">
+                <img src="./assets/linkedin.png" alt="My linkedin profile" 
+                class="icon" onclick="location.href='https://www.linkedin.com/in/ayush-arunan/ '" />
+                 <img src="./assets/github.png" alt="My github profile" 
+                class="icon" onclick="location.href='https://github.com/Aayush-Arunan'" />
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</p>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/Ayush4.jpg" alt="profile picture" class="about-pic" />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-container">
+                        <div class="details-containers">
+                            <img src="./assets/experience-icon.png" alt="Experience icon" class="icon" />
+                            <h3>Skills</h3>
+                            <p style="font-size: large;">Python Django Developer</p>
+                        </div>
+                        <div class="details-containers">
+                        <img src="./assets/education.png" 
+                        alt="Education icon" 
+                        class="icon" />
+                            <h3>Education</h3>
+                            <p style="font-size: large;">B.E Computer Science & Engineering</p>
+
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p style="font-size: medium; text-align: justify;">I’m passionate aspiring Full Stack Developer with a Bachelor’s degree in Computer Engineering. In 2024, I completed an internship at Luminar Technolab, where I gained hands-on experience building real-world web applications using Python and Django, combining both front-end and back-end development. Currently, I’m interning with Internshala, focusing on the MERN stack, to further deepen my skills in full stack web development. I’m excited to begin my career, contribute to impactful projects, and grow in a company where I can learn from challenges, improve through experience, and continue evolving as a developer.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'" />
+               
+            
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>Tailwind</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>Material Ui</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Back Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>SQLite</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>Django</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>                     
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Tools</h2>
+                    
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>REST APIs</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>Postman</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/check_mark.png" alt="check_mark icon" class="icon" />
+                            <div>
+                                <h3>Pythoneverywhere</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        
+                    </div>                     
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#projects'" />
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Check My </p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-containers color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Responsive Website</h2>
+                <p>I built E‑Cart as a front-end project to practice responsive design and e-commerce UI layouts. It’s a static website that
+                     mimics the look and feel of an online shopping platform, featuring sections like a hero banner,
+                      about section, product collections, and a contact area. <br>
+                     🔧 Tech Stack: HTML5 | CSS3 | Responsive Design (Media Queries)<br><br></p>
+                <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="location.href='https://aayush-arunan.github.io/e-cart/'">GitHub</button>
+                  <button class="btn btn-color-2" 
+                onclick="location.href='https://aayush-arunan.github.io/e-cart/'">View</button>
+            </div>
+        </div>
+        <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="Project 1"
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Weather App</h2>
+                   <p>A web application that displays real-time weather data using the
+                    OpenWeather API. Integrated dynamic UI updates with JavaScript and used CSS for a responsive layout.<br>
+                🔧 Tech Stack: HTML5 | CSS3 | Responsive Design techniques | JavaScript | OpenWeather App  </p><br><br>
+                <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="location.href='https://github.com/Aayush-Arunan/weather-App'">GitHub</button>
+                  <button class="btn btn-color-2" 
+                onclick="location.href='https://aayush-arunan.github.io/weather-App/'">View</button>
+            </div>
+        </div>
+        
+    </div>
+        </div>
+         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#Contact'" />
+    </section>
+
+    
+    
+    <section id="Contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="Contact-info-upper-container">
+            <div class="Contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon
+                contact-icon email-icon" />
+                <p><a href="https://mail.google.com">Email</a></p>
+            </div>
+             <div class="Contact-info-container">
+                <img src="./assets/whatsapp.png" alt="whatsapp icon" class="icon
+                contact-icon" />
+                <p><a href="https://web.whatsapp.com/">Whatsapp</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Ayush Arakkal Arunan</p>
+    </footer>
+  
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <script src="js/Script.js"></script>
+    
+</body>
+</html>
